@@ -696,7 +696,7 @@
 
     <!-- 2. LOCAL AUDIO FILE -->
     <audio id="wedding-audio" loop>
-        <source src="wedding-audio.mp4" type="audio/mp4">
+        <source src="wedding-audio.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 
@@ -991,8 +991,8 @@
         function shareInvitation() {
             if (navigator.share) {
                 navigator.share({
-                    title: 'Sandhya & Amith Wedding Invitation',
-                    text: 'Join us to celebrate the wedding of Sandhya Rani & Amith Reddy!',
+                    title: 'Neha & Nithin Wedding Invitation',
+                    text: 'Join us to celebrate the wedding of Neha & Nithin Reddy!',
                     url: window.location.href
                 }).catch(err => console.log(err));
             } else {
